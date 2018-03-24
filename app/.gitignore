@@ -1,16 +1,13 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-node_modules/
-landing/node_modules/
-.vscode/
+/node_modules
 
 # testing
 /coverage
-*__snapshots__*
 
 # production
-landing/build/
+/build
 
 # misc
 .DS_Store
@@ -18,7 +15,6 @@ landing/build/
 .env.development.local
 .env.test.local
 .env.production.local
-.eslintcache
 
 npm-debug.log*
 yarn-debug.log*
